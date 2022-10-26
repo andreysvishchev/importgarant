@@ -9,8 +9,7 @@ interface MainLayoutProps {
 
 const MainLayout = ({children}: MainLayoutProps) => {
    const path = useRouter()
-   console.log(path)
-   console.log(path.asPath)
+
    return (
       <div className={s.site}>
          <header className={s.header}>
@@ -20,7 +19,7 @@ const MainLayout = ({children}: MainLayoutProps) => {
             <Link href="/delivery">
                <a>delivery</a>
             </Link>
-            <Link href="/Catalog">
+            <Link href="/categories">
                <a>catalog</a>
             </Link>
          </header>

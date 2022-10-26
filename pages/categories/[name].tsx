@@ -1,7 +1,7 @@
 import MainLayout from "../../layouts/MainLayout";
 import {useRouter} from "next/router";
 
-export default function Catalog() {
+export default function Category() {
    const name = useRouter()
 
    return (
