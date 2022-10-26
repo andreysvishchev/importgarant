@@ -1,0 +1,30 @@
+
+.site {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main {
+    flex: 1;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: lightgreen;
+    gap: 20px;
+}
+
+
+
+.footer {
+
+
+}
+
+
+
